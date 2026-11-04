@@ -1,0 +1,62 @@
+[
+  {
+    "group": "com.squareup.okio",
+    "name": "okio-jvm",
+    "version": "3.16.2",
+    "extension": "jar",
+    "url": "https://repo.maven.apache.org/maven2/com/squareup/okio/okio-jvm/3.16.2/okio-jvm-3.16.2.jar",
+    "sha256": "a0a9f1abfb90c0a37b9c847cea39fff26d15f39253f5175632cdb948c96318d0"
+  },
+  {
+    "group": "org.jetbrains.kotlin",
+    "name": "kotlin-stdlib",
+    "version": "2.2.21",
+    "extension": "jar",
+    "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/2.2.21/kotlin-stdlib-2.2.21.jar",
+    "sha256": "6558a3d233da56a20934b32159f9db5f86ed5816ef098f78a2c223dc6abb79dd"
+  },
+  {
+    "group": "org.jetbrains",
+    "name": "annotations",
+    "version": "13.0",
+    "extension": "jar",
+    "url": "https://repo.maven.apache.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0.jar",
+    "sha256": "ace2a10dc8e2d5fd34925ecac03e4988b2c0f851650c94b8cef49ba1bd111478"
+  },
+  {
+    "group": "androidx.annotation",
+    "name": "annotation-jvm",
+    "version": "1.9.1",
+    "extension": "jar",
+    "url": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation-jvm/1.9.1/annotation-jvm-1.9.1.jar",
+    "sha256": "1e343917ebf27ba96fe4dc52b1cad7fd32b738fbc6355bb6cd5b3b305d7212d0",
+    "platform": "android"
+  },
+  {
+    "group": "androidx.startup",
+    "name": "startup-runtime",
+    "version": "1.2.0",
+    "extension": "aar",
+    "url": "https://dl.google.com/dl/android/maven2/androidx/startup/startup-runtime/1.2.0/startup-runtime-1.2.0.aar",
+    "sha256": "f51d361d17b30b09cfb9e2aebf301d113f99437cbf462a066092795fb60eddd2",
+    "platform": "android"
+  },
+  {
+    "group": "com.squareup.okhttp3",
+    "name": "okhttp-android",
+    "version": "5.3.0",
+    "extension": "aar",
+    "url": "https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp-android/5.3.0/okhttp-android-5.3.0.aar",
+    "sha256": "77f6237a2919c1c58ff8e05ba0275cb7104f0158701809d27ddc6a875753d7f7",
+    "platform": "android"
+  },
+  {
+    "group": "com.squareup.okhttp3",
+    "name": "okhttp-jvm",
+    "version": "5.3.0",
+    "extension": "jar",
+    "platform": "host",
+    "url": "https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp-jvm/5.3.0/okhttp-jvm-5.3.0.jar",
+    "sha256": "7d6033eea0eb0045615e36bd5a250f2e0320885ffedb99d5c27a85e6f5f2f8ec"
+  }
+]

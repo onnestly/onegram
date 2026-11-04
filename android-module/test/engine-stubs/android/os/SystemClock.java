@@ -1,0 +1,1 @@
+package android.os;public class SystemClock {private static long n; public static synchronized long elapsedRealtime(){return n+=10000;}}

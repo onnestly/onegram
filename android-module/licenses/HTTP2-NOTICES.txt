@@ -1,0 +1,17 @@
+OneGram HTTP/2 media transport dependencies (Apache License 2.0)
+
+OkHttp 5.3.0 — Copyright Square, Inc. / Block, Inc.
+https://github.com/square/okhttp/tree/parent-5.3.0
+Okio 3.16.2 — Copyright Square, Inc. / Block, Inc.
+https://github.com/square/okio
+Kotlin standard library 2.2.21 — Copyright JetBrains s.r.o. and Kotlin contributors.
+https://github.com/JetBrains/kotlin
+JetBrains annotations 13.0 — Copyright JetBrains s.r.o.
+https://github.com/JetBrains/java-annotations
+AndroidX annotation 1.9.1 and startup-runtime 1.2.0 — Android Open Source Project.
+https://android.googlesource.com/platform/frameworks/support/
+
+Unchanged original AAR/JAR downloads and SHA-256 values are listed in
+http2-dependencies.json. Android packaging omits classes that already exist in
+the base APK, including its original startup provider. OneGram initializes
+OkHttp explicitly. The JVM OkHttp artifact is used only by host network tests.

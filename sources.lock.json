@@ -1,0 +1,68 @@
+{
+  "version": "1.0.3",
+  "desktop": {
+    "url": "https://github.com/telegramdesktop/tdesktop.git",
+    "commit": "250fc73c2f17a6c65327cb66af06375b7872c0ba"
+  },
+  "proxy": {
+    "url": "https://github.com/Flowseal/tg-ws-proxy",
+    "commit": "2085861957070eeea07990a522b29f42e5230210"
+  },
+  "android": {
+    "url": "https://telegram.org/dl/android/apk",
+    "sha256": "148f1aa51b0a76c8168e4ad0eb121a66b78c2b8f50e4dc44e7a667668cf8823b",
+    "apktool": "v3.0.3",
+    "download_host": "cdn4.telesco.pe"
+  },
+  "apktool": {
+    "version": "3.0.3",
+    "url": "https://github.com/iBotPeaches/Apktool/releases/download/v3.0.3/apktool_3.0.3.jar",
+    "sha256": "dbf930b076c6b9be08d57c449cacefc3bdd6b71ebd59b3066fc0e1f5b14f9423"
+  },
+  "desktop_overlay_sha256": {
+    "Telegram/build/prepare/prepare.py": "26ff2d6fdd9cbf00358ca9fa81b34e733b0b6c14540d364ab1dd1952eaba843b",
+    "Telegram/CMakeLists.txt": "2f1901b927f0127ebd71a46ebbf3815e6f229d8d0951d58123021c743b7af489",
+    "Telegram/Resources/art/logo_256.png": "a4bf74f47a1fdd7f092aac81d533b6756c7657379abb7b52f3a1472b8f1162b2",
+    "Telegram/Resources/art/logo_256_no_margin.png": "a4bf74f47a1fdd7f092aac81d533b6756c7657379abb7b52f3a1472b8f1162b2",
+    "Telegram/Resources/langs/lang.strings": "ad056f50328e45e3582aad59c262170285f080cd81197dcb7879364a9800ac43",
+    "Telegram/SourceFiles/api/api_send_progress.cpp": "3265310f27a7ed7d724e32369e29855ccdc7c6842205c2c2c14fa6bbf0722a05",
+    "Telegram/SourceFiles/api/api_sending.cpp": "d5db66bce87339298e0880fd540d73de63115a2b3a0f0a2124b95ac4e2c7caca",
+    "Telegram/SourceFiles/apiwrap.cpp": "f74426f96f5bf8d15f75e7078a5185b5d1ae8b0bee74e983531ff8766a72b935",
+    "Telegram/SourceFiles/chat_helpers/emoji_interactions.cpp": "e2675dc2d1d1eae53e861b4fc013ea0b504a3610958d32828a55f8b59df2838d",
+    "Telegram/SourceFiles/core/launcher.cpp": "2f750f998b38ca1990516e7eaea0ae6cef43fa832df1aa979a486680b1d9b1ad",
+    "Telegram/SourceFiles/core/version.h": "7e7e869df785e0b2cdb5c1a6bf8e5d41d8fde49327c93c12a3a97398b7cd5a62",
+    "Telegram/SourceFiles/data/components/onegram_features.cpp": "c735a0808362f4852a3e4c2ade15ffe38b526d51fba5ea6face36a50773b9153",
+    "Telegram/SourceFiles/data/components/onegram_features.h": "87091aa9ebcf6375cb2e0ba3520e49500f78cd28582c4b67d9b2146a15ab24d6",
+    "Telegram/SourceFiles/data/components/onegram_ignore_rules.h": "d25fe0a95d36f703f4b2c8a8ad60f882655dfb82d9441d5201f085633b7772b8",
+    "Telegram/SourceFiles/data/components/onegram_streak_rules.h": "4f488b3dc56ed3adb797b6a194ef9a89b643fb2caf546baf1e1c8f8f5453cc68",
+    "Telegram/SourceFiles/data/components/onegram_streaks.cpp": "3915e3726f30d1ecf52d644408be36c90573f4b62444dfe4281d75e4bd5a5b91",
+    "Telegram/SourceFiles/data/components/onegram_streaks.h": "53d28eaa1d2f5fb2c12811be9421f6eee86c632bf17afb175c4b53e411732427",
+    "Telegram/SourceFiles/data/data_histories.cpp": "b2e9b80c386b5f952f1d092cae2ea6adc6e03610e7a02894f920a51efb777b9d",
+    "Telegram/SourceFiles/data/data_replies_list.cpp": "94bce86883a1c4ade0b62c8bf821d7f73727bd99ac5680c115a5dd08a8153d93",
+    "Telegram/SourceFiles/dialogs/dialogs_widget.cpp": "88c677f8f33d8a68bc12674f73ac7d86ec130b3ca92f11ee53e9321de6aef6ac",
+    "Telegram/SourceFiles/dialogs/ui/dialogs_layout.cpp": "99a160dfd21fd4eee57f798427f7195b9569e55ea3718b2fc64306670dca5c73",
+    "Telegram/SourceFiles/dialogs/ui/dialogs_message_view.cpp": "284cc753475f3e0a3b272ae063a3aefabbdbdc168aa7bff4ebe99650e980b7ee",
+    "Telegram/SourceFiles/dialogs/ui/dialogs_message_view.h": "2c9a4c0a00fa3bb20fce2145a41c78bae88b8eee9e70cc9aa77e3a85872086a2",
+    "Telegram/SourceFiles/history/history.cpp": "1881a343f197947d1401a2ce3de9654558a636ae8dabad78b682c3934192bd78",
+    "Telegram/SourceFiles/history/history_streamed_drafts.cpp": "1988385eca319bd9853db53e80c68f6a74e0fd7d527b769ccaee545efe50e269",
+    "Telegram/SourceFiles/history/history_widget.cpp": "fd5870a7a7a347ef7d77b73c67889450c8bd84bf19e43b9ebdf83abdb3168b8a",
+    "Telegram/SourceFiles/history/view/history_view_element.cpp": "b1771b4c3d4b6490c8cf6cb70b1f3d19c55614e307dc1323ec4acfe741a64fc9",
+    "Telegram/SourceFiles/history/view/history_view_top_bar_widget.cpp": "582da33921f451e5db2318c8e6758721b1d1fc01d3a60fc32f8212ac449887c1",
+    "Telegram/SourceFiles/intro/intro_start.cpp": "b83674aff166975d42b9ac768013e047b2abc9652c734d7dc6f1f4dedbaf4c0f",
+    "Telegram/SourceFiles/lang/lang_instance.cpp": "560e7d8e9a2660170b1fac883900adcf6459a866c8ffdb1653d3756b25b44ce7",
+    "Telegram/SourceFiles/main/main_session.cpp": "663a39ddc271dfc551e7a7ee4d2341e49e63a61558906cab10263ba3f618a376",
+    "Telegram/SourceFiles/main/main_session.h": "d84cf6c9123f012e6628e6ccb325d7e8d98d28f0f37a134490f25f5984eebc78",
+    "Telegram/SourceFiles/menu/menu_send.cpp": "be10f9fd4d7ebc87f17e76855a4012427b3ebbac9fcaa079724bb1e77aea57d9",
+    "Telegram/SourceFiles/settings/sections/settings_main.cpp": "632ff20fede52c247dc0bf3996a0905e29b7e1b7847f52d05ac97fc718565581",
+    "Telegram/SourceFiles/ui/onegram/onegram_ignore_layout.h": "bcc9dd436623dcec08ad4a21d621a07cf7637601a7872695186764d5fe758e22",
+    "Telegram/SourceFiles/ui/onegram/onegram_ui.cpp": "ef73f136cab55a89e824aa901229deb31a2b06a404aa402b45b27a8b54cb9177",
+    "Telegram/SourceFiles/ui/onegram/onegram_ui.h": "a1ba5d32503848955393707019a5110c4ee225007a4eb0678302006ca3fb1338",
+    "Telegram/SourceFiles/ui/unread_badge.cpp": "787a9559efa855925a2a3e3638afedae9a923c75837a997280181d8e4694f3da",
+    "Telegram/SourceFiles/ui/unread_badge.h": "ff10bf4faa9461784d9191ef2fe28dece25ed85ca665e1a5429cb15ad3f827a4",
+    "Telegram/SourceFiles/window/main_window.cpp": "363fda4a871f897275cb9ed6ecbb183916439a1c86040f4fc118c303175483c6",
+    "Telegram/SourceFiles/window/notifications_manager.cpp": "b44dde3d043a674d666d110c21052c467b77416ed82eaae8fbb7a9d6c8843da3",
+    "Telegram/SourceFiles/window/window_main_menu.cpp": "da233b34237c71dfba8efc744936be2176a4bc5e98d15a01cd5eecd215fd26f4",
+    "Telegram/SourceFiles/window/window_peer_menu.cpp": "d52b8ed424023c3683a7ace86fb9aa6ec8900a585345475bdca67c453f269498",
+    "Telegram/SourceFiles/window/window_session_controller.cpp": "87c3eec950033a737dc4f3bc282e448caab36e4b1ea0379227adc127aa2c864d"
+  }
+}

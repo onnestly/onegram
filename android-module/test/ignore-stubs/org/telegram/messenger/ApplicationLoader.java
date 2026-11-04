@@ -1,0 +1,1 @@
+package org.telegram.messenger;import android.content.*;public class ApplicationLoader {public static Context applicationContext=new Context();public static SharedPreferences prefs;}

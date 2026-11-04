@@ -1,0 +1,1 @@
+package org.telegram.messenger;public class MessagesController {public static MessagesController getInstance(int a){return new MessagesController();}public User getUser(long id){return new User();}public Object getInputPeer(long id){return new Object();}public static class User{public boolean bot=false;}}
